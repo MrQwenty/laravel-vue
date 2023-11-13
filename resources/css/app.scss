@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "flag-icons";
+
+
+body {
+    font-family: Inter, sans-serif !important;
+}
+
+.multiselect__content-wrapper {
+    width: 100% !important;
+}
+
+.multiselect__placeholder {
+    font-size: 1rem;
+    color: rgba(51, 52, 64, 0.7) !important;
+}
+
+#userDropdown {
+    margin-top: 10px!important;
+}
+
+button, [type='button'], [type='reset'], [type='submit'] {
+    -webkit-appearance: button;
+    background-color: inherit;
+    background-image: none;
+}
+
+.hint {
+    color: var(--n-feedback-text-color);
+}
+
+/*
+:deep(.n-menu-item-content--child-active.n-menu-item-content::before) {
+    @apply bg-primaryColor
+}
+
+:deep(.n-menu-item-content.n-menu-item-content--selected::before) {
+    @apply bg-primaryColor
+}
+*/
