@@ -21,7 +21,8 @@ php artisan serve
 E' pre-installata la libreria [Naive-ui](https://www.naiveui.com/) 
 
 ## ☠️ Errore comune
-E' possibile riscontrare un errore riguardante la cartella `lang`, occorre eliminarla e rilanciare il comando di avvio
+E' possibile riscontrare un errore riguardante la cartella `lang`, occorre 
+eliminare la cartella `resources/lang` e rilanciare `npm run dev`
 
 ## 🇮🇹 Traduzioni
 E' installata una libreria per la gestione delle traduzioni. Nella cartella `resources/lang` 
